@@ -28,7 +28,7 @@ ST-Link/V2 JTAG/SWD接口定义：
 　　20. GND 	　　  GND	        GROUND
   
   ST-Link/V2 JTAG/SWD标准的接口排列：
-  ![jointMap](https://github.com/Freecss123456/unity3D/blob/master/image/kinect_Joints.png)
+  ![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2JTAG_SWD.jpg)
 
 **********************ST-Link/V2 SWIM**********************
 ST-Link/V2 SWIM接口定义：
