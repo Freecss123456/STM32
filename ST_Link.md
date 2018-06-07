@@ -39,3 +39,5 @@ ST-Link/V2 SWIM接口定义：
 4. RESET	 MCU RESET pin	   连接STM8目标板的RESET PIN
 
 ST-Link/V2 SWIM标准的接口排列：
+![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2SWIM%E6%A0%87%E5%87%86%E6%8E%A5%E5%8F%A3.jpg)
+https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2SWIM%E6%A0%87%E5%87%86%E6%8E%A5%E5%8F%A3.jpg
