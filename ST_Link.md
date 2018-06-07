@@ -4,40 +4,14 @@ ST-Link/V2 JTAG/SWD接口定义：
 实际有效引脚为RST、SWD、SWC、3.3V、GND
 1号引脚是TVCC，是接收电压的引脚，对外不输出电压，主要功能就是接受目标电压以平衡电压。需要将这个1号引脚再连接到板子的3.3V上才可以
 )
+![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2JTAG_SWD_List.jpg) 
 
-   仿真器端口	   连接目标板	   功能
-　　1. TVCC	　　  MCU电源VCC	  连接STM32目标板的电源VCC
-　　2. TVCC	　　  MCU电源VCC	  连接STM32目标板的电源VCC
-　　3. TRST	　　   GND	       GROUND
-　　4. UART-RX    GND	         GROUND
-　　5. TDI	　　   TDI	       连接STM32的JTAG TDI
-　　6. UART-TX	  GND	         GROUND
-　　7. TMS, SWIO  TMS, SWIO	   连接STM32的JTAG的TMS, SWD的SW IO
-　　8. BOOT0	　　 GND	        GROUND
-　　9. TCK, SWCLK	 TCK, SWCLK	  连接STM32的JTAG的TCK, SWD的SW CLK
-　　10. SWIM 	　　 GND	        GROUND
-　　11. NC	　　   NC	          Unused
-　　12. GND	　　   GND	        GROUND
-　　13. TDO	　　   TDO	        连接STM32的JTAG TDO
-　　14. SWIM-RST	 GND	       GROUND
-　　15. STM32-RESET	RESET     	连接STM32目标板的RESET端口
-　　16. KEY	　　    NC	        GROUND
-　　17. NC 	　　    NC	        Unused
-　　18. GND	　　    GND	        GROUND
-　　19. VDD	　　    NC	        VDD (3.3V)
-　　20. GND 	　　  GND	        GROUND
-  
-  ST-Link/V2 JTAG/SWD标准的接口排列：
-  ![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2JTAG_SWD.jpg)
+ST-Link/V2 JTAG/SWD标准的接口排列：
+![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2JTAG_SWD.jpg)
 
 **********************ST-Link/V2 SWIM**********************
 ST-Link/V2 SWIM接口定义：
-仿真器端口	 连接目标板	        功能
-1. VDD	   MCU VCC	         连接STM8目标板的电源VCC
-2. DATA	   MCU SWIM pin	     连接STM8目标板的SWIM PIN
-3. GND	   GND	             连接STM8目标板的电源GND
-4. RESET	 MCU RESET pin	   连接STM8目标板的RESET PIN
+![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2SWIM_List.jpg)
 
 ST-Link/V2 SWIM标准的接口排列：
 ![jointMap](https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2SWIM%E6%A0%87%E5%87%86%E6%8E%A5%E5%8F%A3.jpg)
-https://github.com/Freecss123456/STM32/blob/master/picture_source/ST-LinkV2SWIM%E6%A0%87%E5%87%86%E6%8E%A5%E5%8F%A3.jpg
